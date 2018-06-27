@@ -92,13 +92,13 @@ def player_biggest_shoe_size():
                 current_player_name = list(current_player)[0]
     return current_player
 
-# print(num_points_scored('Mason Plumlee'))
-# print(find_the_player('Mason Plumlee'))
-# print(player_stats('Mason Plumlee'))
-# print(player_numbers("Charlotte Hornets"))
-# print(player_biggest_shoe_size())
-# print(players())
-# print(teams())
-# print(team_names())
-# print(big_shoe_rebounds())
-# print(team_colors("Charlotte Hornets"))
+print(num_points_scored('Mason Plumlee'))
+print(find_the_player('Mason Plumlee'))
+print(player_stats('Mason Plumlee'))
+print(player_numbers("Charlotte Hornets"))
+print(player_biggest_shoe_size())
+print(players())
+print(teams())
+print(team_names())
+print(big_shoe_rebounds())
+print(team_colors("Charlotte Hornets"))
