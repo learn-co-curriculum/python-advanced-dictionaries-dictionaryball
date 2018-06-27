@@ -76,9 +76,9 @@ def find_the_team(team_name):
 
 
 def find_the_player(name):
-    all_teams = teams()
-    for team in all_teams:
-        return next(({player: stats} for player , stats in team['players'].items() if player.lower() == name.lower()), None)
+    all_players = players()
+    return next(({player: stats} for player , stats in all_players.items()if player.lower() == name.lower()), None)
+
 
 def player_biggest_shoe_size():
     player_dicts = players()
@@ -91,14 +91,3 @@ def player_biggest_shoe_size():
                 current_player = player
                 current_player_name = list(current_player)[0]
     return current_player
-
-print(num_points_scored('Mason Plumlee'))
-print(find_the_player('Mason Plumlee'))
-print(player_stats('Mason Plumlee'))
-print(player_numbers("Charlotte Hornets"))
-print(player_biggest_shoe_size())
-print(players())
-print(teams())
-print(team_names())
-print(big_shoe_rebounds())
-print(team_colors("Charlotte Hornets"))
