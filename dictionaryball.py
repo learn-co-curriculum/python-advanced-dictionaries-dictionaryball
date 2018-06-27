@@ -1,4 +1,4 @@
-game_dict = {
+game_dictionary = {
     'home': {
         'team_name': "Brooklyn Nets",
         'colors': ["Black", "White"],
@@ -23,8 +23,8 @@ game_dict = {
     }
 }
 
-def game_dictionary():
-    return game_dict
+def game_dict():
+    return game_dictionary
 
 def num_points_scored(name):
     player = find_the_player(name)
@@ -59,7 +59,7 @@ def big_shoe_rebounds():
 
 
 def teams():
-    return game_dict.values()
+    return game_dict().values()
 
 
 def players():
@@ -91,3 +91,17 @@ def player_biggest_shoe_size():
                 current_player = player
                 current_player_name = list(current_player)[0]
     return current_player
+
+for team, data in game_dict().items():
+    for team_data, other in data.items():
+        print(team_data)
+# print(num_points_scored('Mason Plumlee'))
+# print(find_the_player('Mason Plumlee'))
+# print(player_stats('Mason Plumlee'))
+# print(player_numbers("Charlotte Hornets"))
+# print(player_biggest_shoe_size())
+# print(players())
+# print(teams())
+# print(team_names())
+# print(big_shoe_rebounds())
+# print(team_colors("Charlotte Hornets"))
