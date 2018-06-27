@@ -92,9 +92,6 @@ def player_biggest_shoe_size():
                 current_player_name = list(current_player)[0]
     return current_player
 
-for team, data in game_dict().items():
-    for team_data, other in data.items():
-        print(team_data)
 # print(num_points_scored('Mason Plumlee'))
 # print(find_the_player('Mason Plumlee'))
 # print(player_stats('Mason Plumlee'))

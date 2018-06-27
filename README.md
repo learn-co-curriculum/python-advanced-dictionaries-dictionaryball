@@ -22,7 +22,7 @@ The first step is to build the dictionary itself! We will need to assign the dic
   
 
 * The `team_name` key points to a string of the team name.
-* The `colors` key points to an array of strings that are that team's colors.
+* The `colors` key points to a list of strings that are that team's colors.
 * The `players` key points to a dictionary of players whose names (as strings) are the keys to a dictionary containing their stats. The values for each player's names and their stats can be found in the table below. The stats keys should be formatted like this:
     * `number`
     * `shoe`
@@ -92,7 +92,7 @@ Now that we understand how we are going to operate on the `game_dict` inside of 
 
 ### Iterating through Nested Levels:
 
-This lab requires us to iterate through the many levels of our nested dictionary. DON'T TAKE YOUR UNDERSTANDING OF YOUR DICTIONARY FOR GRANTED. Every time you iterate into a new level of the dictionary, immediately place a `import pdb; pdb.set_trace()` there. Then, run your function to see what the key/value pairs of that dictionary are.
+This lab requires us to iterate through the many levels of our nested dictionary. **Don't take your understanding of your dictionary for granted.** Every time you iterate into a new level of the dictionary, immediately place a `import pdb; pdb.set_trace()` there. Then, run your function to see what the key/value pairs of that dictionary are.
 
 > **hint:** to run the function, call it at the bottom of your file and run the file from your terminal with the following command: `python dictionaryball.py`
 
@@ -112,7 +112,7 @@ def good_practices():
             print(item)
 ```
 
-Open up the `dictionaryball.rb` and copy and paste the above function. Then, at the bottom of the file, call the function (`good_practices()`) and, in your terminal, run the file with `python dictionaryball.rb`. Play around with the values in each level of the function until you get comfortable with the iteration. To continue to the next pdb trace, you can enter `c` in your terminal. This should give you a stronger sense of how we iterate through so many levels of a nested dictionary and what happens on each level. If you find yourself getting stuck in building out other functions, try using this method of adding in pdb traces to check the values of your for loop variables.
+Open up the `dictionaryball.py` and copy and paste the above function. Then, at the bottom of the file, call the function (`good_practices()`) and, in your terminal, run the file with `python dictionaryball.py`. Play around with the values at each level of the function until you get comfortable with the iteration. To continue to the next pdb trace, you can enter `c` in your terminal. This practice should give you a stronger sense of how we iterate through so many levels of a nested dictionary and what happens on each level. If you find yourself getting stuck in building out other functions, try using this method of adding in pdb traces to check the values of your for loop variables.
 
 Okay, ***now*** we're ready to build out functions:
 
