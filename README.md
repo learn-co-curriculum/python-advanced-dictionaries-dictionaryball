@@ -1,22 +1,21 @@
-# Hashketball
+
+# Dictionaryball
 
 ## Objectives
-
-1. Practice building nested hashes.
-2. Practice iterating over nested hashes.
+1. Practice building nested dictionaries
+2. Practice iterating over nested dictionaries and lists
 
 ## Instructions
 
 Great news! You're going to an NBA game. The only catch is that you've been volunteered to keep stats at the game.
+Fork and clone this lab and run the test suite to get started. You'll be coding your solution in `dictionaryball.py`.
 
-Fork and clone this lab and run the test suite to get started. You'll be coding your solution in `hashketball.rb`.
+### Part 1: Building the Dictionary
 
-### Part 1: Building the Hash
+The first step is to build the dictionary itself! We will need to assign the dictionary to a variable, let's call it `game_dict`. This nested dictionary should be constructed in the following manner:
 
-The first method you will define is called `game_hash`. This method contains and returns a hash nested in the following manner:
-
-* The top level of the hash has two keys: `:home`, for the home team, and `:away`, for the away team.
-* The values of the `:home` and `:away` keys are hashes. These hashes have the following keys:
+* The top level of the dictionary has two keys: `:home`, for the home team, and `:away`, for the away team.
+* The values of the `:home` and `:away` keys are dictionaries. These dictionaries have the following keys:
   * `:team_name`
   * `:colors`
   * `:players`
@@ -173,3 +172,4 @@ Define methods to return the answer to the following questions:
 * [Codecademy](http://www.codecademy.com/dashboard) - [A Night at the Movies](http://external.codecademy.com/courses/ruby-beginner-en-0i8v1/0/1)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/advanced-hashes-hashketball'>Hashketball</a> on Learn.co and start learning to code for free.</p>
+
